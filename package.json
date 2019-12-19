@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "description": "Solutions to the puzzles from https://adventofcode.com",
+  "main": "index.js",
+  "repository": "https://github.com/Segun-Ogundipe/advent-of-code-2019.git",
+  "author": "Segun Ogundipe <segunogundipe@witts-stratts.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "ts-node ./**/main.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  }
+}
