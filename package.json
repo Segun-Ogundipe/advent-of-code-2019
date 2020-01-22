@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p .",
-    "dev": "ts-node ./**/main.ts",
+    "dev1": "ts-node ./part-1/main.ts",
+    "dev2": "ts-node ./part-2/main.ts",
     "test": "jest"
   },
   "devDependencies": {
