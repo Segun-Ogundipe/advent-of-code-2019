@@ -30,7 +30,7 @@ describe('Test the first part of the puzzle', () => {
 
 describe('Test the second part of the puzzle', () => {
   test('Should return 7749', () => {
-    const fuel = gravityAssist2();
+    const fuel = gravityAssist2(puzzleInput);
     expect(fuel).toBe(7749);
   });
 });
